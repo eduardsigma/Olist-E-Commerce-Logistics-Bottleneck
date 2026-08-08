@@ -65,7 +65,7 @@ Cross-referencing shipping routes against regional geography revealed why transi
 
 ---
 
-## Featured SQL Code
+## SQL Codes
 
 ### Lifecycle Decomposition & Bottleneck Identification Query
 ```sql
@@ -89,7 +89,7 @@ WHERE ood.order_status = 'delivered'
 GROUP BY delivery_status;
 ```
 
-### Lifecycle Decomposition & Bottleneck Identification Query
+### Delay Stratification & Review Score
 ```sql
 SELECT
     CASE
